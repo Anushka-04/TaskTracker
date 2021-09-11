@@ -1,0 +1,17 @@
+button{
+	background: rosybrown;
+	color: #fff;
+	padding: 10px 13px;
+	border-style: none;
+	border-radius: 10%;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.toggle{
+	margin-bottom: 15px;
+}
+
+.full-width-field {
+  display: block;
+}
