@@ -20,6 +20,7 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import {MatSlideToggleModule} from '@angular/material/slide-toggle';
 import { ButtonComponent } from './components/button/button.component';
 import {NgxMaterialTimepickerModule} from 'ngx-material-timepicker';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import {NgxMaterialTimepickerModule} from 'ngx-material-timepicker';
     TasksComponent,
     AddTaskComponent,
     TaskItemComponent,
-    ButtonComponent
+    ButtonComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
